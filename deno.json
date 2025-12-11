@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-run --watch main.ts",
+    "run": "deno run --allow-run main.ts",
+    "install": "deno install --allow-run --name dns-changer main.ts",
+    "compile": "deno compile --allow-run --output dns-changer main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
