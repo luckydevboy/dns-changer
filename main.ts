@@ -9,6 +9,7 @@ const DNS_PROVIDERS: Record<string, string[]> = {
   shecan: ["178.22.122.100", "185.51.200.2"],
   begzar: ["185.55.226.26", "185.55.225.25", "185.55.224.24"],
   electro: ["78.157.42.101", "78.157.42.100"],
+  bertina: ["193.186.32.32"]
 };
 
 /**
@@ -183,6 +184,7 @@ Providers:
   shecan                   178.22.122.100, 185.51.200.2
   begzar                   185.55.226.26, 185.55.225.25, 185.55.224.24
   electro                  78.157.42.101, 78.157.42.100
+  bertina                  193.186.32.32
 
 Examples:
   # Set DNS using default provider (shecan)
@@ -193,6 +195,7 @@ Examples:
   dns-changer shecan
   dns-changer set begzar
   dns-changer set electro
+  dns-changer set bertina
 
   # Set custom DNS servers
   dns-changer 8.8.8.8 8.8.4.4
